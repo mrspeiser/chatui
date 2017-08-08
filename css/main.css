@@ -8,3 +8,120 @@ body {
   margin: 0;
   padding: 0;
 }
+
+ul {
+	padding: 0;
+
+}
+
+ul li {
+	list-style: none;
+}
+
+header {
+	height: 100px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.nopadd {
+padding: 0px;
+text-align: center;
+
+}
+
+.chat-ui {
+	position: absolute;
+	border: 1px solid green;
+	padding: 10px;
+	height: 100%;
+	overflow-y: auto;
+}
+
+.chat-ui::-webkit-scrollbar {
+    width: 12px;
+}
+
+.chat-ui::-webkit-scrollbar-track {
+      background-color: #FFFFFF;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+.chat-ui::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2); 
+} /* this will style the thumb, ignoring the track */
+ 
+.chat-ui::-webkit-scrollbar-button {
+      background-color: #7c2929;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+.chat-ui::-webkit-scrollbar-corner {
+      background-color: black;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+
+
+.chat-toggle {
+
+}
+
+.header {
+
+}
+
+.rooms-container {
+
+}
+
+.rooms {
+
+}
+
+.users-online-container {
+	border-top: 1px solid orange;
+	padding-top: 10px;
+}
+
+.user-container {
+	display: flex;
+	margin-top: 10px;
+}
+
+.user-item {
+	
+}
+
+.chat-img {
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.user-text {
+	padding: 5px;
+	margin-bottom: 0px;
+}
+
+.name {
+	margin-top: 0;
+	margin-bottom: 0;
+	display: block;
+}
+
+.status {
+	display: inline-block;
+}
+
+/*  .menu2 {
+    background-color: white;
+    width: 175px;
+      height: 100%;
+      position: fixed;
+      overflow-y: scroll;
+      z-index: 2;
+      transition-property: all;
+      transition-duration: 1s;
+      transform:translateX(-110px);
+  }
+*/
+/*.floatright {
+	float: right;
+}*/
