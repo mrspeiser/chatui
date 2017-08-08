@@ -30,12 +30,17 @@ text-align: center;
 
 }
 
+.margin0 {
+	margin: 0;
+}
+
 .chat-ui {
-	position: absolute;
+	padding: 0px;
 	border: 1px solid green;
-	padding: 10px;
 	height: 100%;
 	overflow-y: auto;
+	background-color: white;
+	max-width: 250px;
 }
 
 .chat-ui::-webkit-scrollbar {
@@ -68,22 +73,55 @@ text-align: center;
 
 }
 
-.rooms-container {
+.rooms-container{ 
+ }
 
-}
+.room-container{ 
+	display: flex;
+ }
 
-.rooms {
+ .room-container:hover {
+ 	cursor: pointer;
+ 	background-color: green;
+ }
 
-}
+/*.room-text .present-users {
+	text-align: left;
+}*/
+
+.room-text{ 
+	margin-left: 10px;
+	margin-bottom: 0px;
+	padding: 10px 0px 10px 0px;
+ }
+
+.present-users{ 
+	display: inline-block;
+	border: 2px solid black;
+	padding: 5px;
+ }
+
+.room-name{ 
+	display: inline-block;
+ }
+
 
 .users-online-container {
 	border-top: 1px solid orange;
 	padding-top: 10px;
+	margin-top: 10px;
+
 }
 
 .user-container {
 	display: flex;
-	margin-top: 10px;
+	padding: 0px 10px 0px 10px;
+
+}
+
+.user-container:hover {
+	background-color: red;
+	cursor: pointer;
 }
 
 .user-item {
@@ -108,6 +146,15 @@ text-align: center;
 
 .status {
 	display: inline-block;
+}
+
+.chat-box {
+	padding: 0px;
+	border: 1px solid teal;
+	height: 100%;
+	overflow-y: auto;
+	background-color: pink;
+	max-width: 250px;
 }
 
 /*  .menu2 {
