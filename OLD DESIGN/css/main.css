@@ -1,0 +1,245 @@
+html {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+	padding: 0;
+
+}
+
+ul li {
+	list-style: none;
+}
+
+header {
+	height: 100px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.nopadd {
+	padding: 0px;
+	text-align: left;
+
+}
+
+.chat-ui-container {
+	position: relative;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.margin0 {
+	margin: 0;
+}
+
+.chat-ui {
+	padding: 0px;
+	border: 1px solid green;
+	height: 100%;
+	overflow-y: auto;
+	background-color: white;
+	max-width: 250px;
+}
+
+.chat-ui::-webkit-scrollbar {
+    width: 12px;
+}
+
+.chat-ui::-webkit-scrollbar-track {
+      background-color: #FFFFFF;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+.chat-ui::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2); 
+} /* this will style the thumb, ignoring the track */
+ 
+.chat-ui::-webkit-scrollbar-button {
+      background-color: #7c2929;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+.chat-ui::-webkit-scrollbar-corner {
+      background-color: black;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+
+
+.chat-toggle {
+
+}
+
+.header {
+
+}
+
+.rooms-container{ 
+ }
+
+.room-container{ 
+	display: flex;
+ }
+
+ .room-container:hover {
+ 	cursor: pointer;
+ 	background-color: green;
+ }
+
+/*.room-text .present-users {
+	text-align: left;
+}*/
+
+.room-text{ 
+	margin-left: 10px;
+	margin-bottom: 0px;
+	padding: 10px 0px 10px 0px;
+ }
+
+.present-users{ 
+	display: inline-block;
+	border: 2px solid black;
+	padding: 5px;
+ }
+
+.room-name{ 
+	display: inline-block;
+ }
+
+
+.users-online-container {
+	border-top: 1px solid orange;
+	padding-top: 10px;
+	margin-top: 10px;
+
+}
+
+.user-container {
+	display: flex;
+	padding: 0px 10px 0px 10px;
+
+}
+
+.user-container:hover {
+	background-color: red;
+	cursor: pointer;
+}
+
+.user-item {
+	
+}
+
+.chat-img {
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.user-text {
+	padding: 5px;
+	margin-bottom: 0px;
+}
+
+.name {
+	margin-top: 0;
+	margin-bottom: 0;
+	display: block;
+}
+
+.status {
+	display: inline-block;
+}
+
+.chat-box {
+	padding: 0px;
+	border: 1px solid teal;
+	height: 100%;
+	overflow-y: auto;
+	background-color: pink;
+	max-width: 250px;
+	text-align: left;
+}
+
+.user-room {
+	border: 1px solid green;
+
+}
+
+.user-room:hover {
+	background-color: blue;
+}
+
+.user-chat-box {
+
+}
+
+.inlineblock {
+	display: inline-block;
+}
+
+.message-thread {
+	background-color: white;
+	width: 100%;
+	max-height: 300px;
+	overflow: auto;
+}
+
+.chat-container {
+	padding: 0px 10px 0px 10px;
+
+}
+
+.displaynone {
+	display: none;
+}
+
+
+.group-chat {
+	height: 100%;
+	border: 1px solid orange;
+	padding: 0px;
+ }
+
+ .view-chat-area {
+ 	height: 100%;
+ 	width: 80%;
+ 	border: 1px solid green;
+ }
+ 
+
+
+/*.show-thread {
+	height: 300px;
+	background-color: yellow;
+}
+
+.message-thread {
+	background-color: white;
+	overflow-y: auto;
+	height: 90%;
+	width: 90%;
+}
+
+.displayblock {
+	display: block;
+}*/
+
+/*  .menu2 {
+    background-color: white;
+    width: 175px;
+      height: 100%;
+      position: fixed;
+      overflow-y: scroll;
+      z-index: 2;
+      transition-property: all;
+      transition-duration: 1s;
+      transform:translateX(-110px);
+  }
+*/
+/*.floatright {
+	float: right;
+}*/
