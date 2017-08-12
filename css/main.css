@@ -57,3 +57,12 @@ ul li {
 	height: 0%;
 }
 
+.positionabsolute {
+	position: absolute;
+}
+
+@media (max-width: 768px) {
+	.col-sm-10 {
+		float: none;
+	}
+}
