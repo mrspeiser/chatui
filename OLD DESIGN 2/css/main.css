@@ -1,0 +1,72 @@
+html {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+.display-block {
+	display: block;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.padding-0 {
+	padding: 0px;
+}
+
+.margin-0 {
+	margin: 0px;
+}
+
+.text-align-right {
+	text-align: right;
+}
+
+.text-align-left {
+	text-align: left;
+}
+
+.width100 {
+	width: 100%;
+}
+
+.height100 {
+	height: 100%;
+}
+
+.width0 {
+	width: 0%;
+}
+
+.height0 {
+	height: 0%;
+}
+
+.positionabsolute {
+	position: absolute;
+}
+
+.users-online {
+	max-width: 300px;
+}
+
+@media (max-width: 768px) {
+	.mediaquery1 {
+		float: none;
+	}
+}
