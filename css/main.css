@@ -61,6 +61,10 @@ ul li {
 	position: absolute;
 }
 
+.users-online {
+	max-width: 300px;
+}
+
 @media (max-width: 768px) {
 	.col-sm-10 {
 		float: none;
