@@ -30,7 +30,7 @@ ul li {
     height:100%;
     width:15%;
     background-color:#A2A;
-    max-width: 400px;
+    max-width: 15%;
     min-width: 40px;
 }
 #div2{
@@ -48,7 +48,7 @@ ul li {
     height:100%;
     width:20%;
     background-color:#CFC;
-    max-width: 400px;
+    max-width: 20%;
     min-width: 40px;
 }
 
@@ -56,6 +56,16 @@ ul li {
 	cursor: pointer;
 	margin-right: 5px;
 	margin-left: 5px;
+}
+
+#div3togglewidth {
+	cursor: pointer;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#user-container {
+	background-color: white; height: 40px;
 }
 
 .optionsbar {
