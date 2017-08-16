@@ -33,12 +33,69 @@ ul li {
     max-width: 15%;
     min-width: 40px;
 }
+.optionsbar {
+	background-color: white;
+}
+.optionsUl {
+	display: block;
+	background-color: white;
+	padding: 0;
+}
+
+
+
+
 #div2{
     position:relative;
     float:left;
     height:100%;
     width:65%;
     background-color:#BBB;
+}
+
+.chatlogs {
+	padding: 10px;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+
+}
+.chat {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	margin-bottom: 10px;
+}
+.chat .user-photo {
+	width: 60px;
+	height: 60px;
+	background: #ccc;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.chat .user-photo img {
+	width: 100%;
+}
+
+.chat .chat-message {
+	width: 80%;
+	padding:  15px;
+	margin: 5px 10px 0;
+	background: #1ddced;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.friend .chat-message {
+	background: #1adda4;
+}
+
+.self .chat-message {
+	background: #1ddced;
+	order: -1;
+
 }
 
 
@@ -49,7 +106,7 @@ ul li {
     width:20%;
     background-color:#CFC;
     max-width: 20%;
-    min-width: 40px;
+    min-width: 10px;
 }
 
 #div1togglewidth {
@@ -68,18 +125,22 @@ ul li {
 	background-color: white; height: 40px;
 }
 
-.optionsbar {
-	background-color: white;
-}
-
-.optionsUl {
-	display: block;
-	background-color: white;
-	padding: 0;
-}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*begin extra classes*/
 
 .display-block {
 	display: block;
