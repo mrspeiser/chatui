@@ -9,6 +9,12 @@ body {
   padding: 0;
 }
 
+header {
+	height: 54px;
+	width: 100%;
+	background: #3B5998;
+}
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -41,7 +47,6 @@ i {
 
 #menuOptions1 {
 	border-bottom: 1px solid #d1d1d1;
-	margin-bottom: 5px;
 	padding-bottom: 10px;
 }
 
@@ -58,6 +63,7 @@ i {
 
 .user-image {
 	border-radius: 50%;
+	height: 40px;
 }
 
 .optionsUl {
@@ -67,18 +73,25 @@ i {
 	border-bottom: 1px solid #D1D1D1;
 }
 
-#user-container {
-	background-color: white; height: 40px;
+.user-container {
+	background-color: white; 
 	overflow-x: hidden;
-	margin-bottom: 5px;
-	padding-left: 5px;
+	padding: 5px;
 	cursor: pointer;
-
-
+	display: flex;
+	align-items: center;
 
 }
 
-#user-container::-webkit-scrollbar {
+.user-container img {
+	height: 40px
+}
+
+.user-container:hover {
+	background-color: #e9e9e9;
+}
+
+.user-container::-webkit-scrollbar {
 	display: none;
 }
 
@@ -91,6 +104,18 @@ i {
 	margin-right: 10px;
 }
 
+.status2 {
+	padding: 5px;
+	border-radius: 50%;
+	background-color: #1adda4;
+	
+	
+}
+
+.away {
+	background-color: #FFFF00;
+}
+
 
 #div2{
     position:relative;
@@ -98,8 +123,9 @@ i {
     height:100%;
     width:65%;
     background-color:#FFF;
-    border-right: 1px solid #E8E5E5;
+    border-right: 1px solid #D1D1D1;
 }
+
 
 .chat-menu {
 	display: flex;
@@ -108,19 +134,103 @@ i {
 	width: 100%;
 	height: 5%;
 	overflow-x: auto;
-	border-bottom: 1px solid #1ddced;
+	border-bottom: 1px solid #D1D1D1;
 	padding: 0 40px;
 }
 
 .options li {
 	padding: 0 20px;
 	float: left;
+	position: relative;
+}
+
+.options li i {
+	position: relative;
+}
+
+.conversation-info {
+	border-bottom: 1px solid #d1d1d1;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+
+
+.conversation-info .user-photo {
+	display: inline-block;
+	background: #ccc;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 10px 0;
+	border: 1px solid green;
+}
+
+.conversation-info .user-photo img {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+
+}
+
+
+.user-text {
+	flex-grow: 2;
+	height: 80px;
+	margin: 10px 0;
+	padding-left: 15px;
+}
+
+.user-text h2 {
+	margin: 0;
+}
+.user-text p {
+	margin: 0;
+}
+
+.com-methods {
+	height: 80px;
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex-grow: 1;
+}
+
+.com-methods li {
+	list-style: none;
+}
+
+.com-methods li i {
+	float: right;
+	background: #c1d1dd;
+	margin-right: 20px;
+	padding: 16px;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	color: white;
+
+}
+
+.com-methods li i:hover {
+
+
+}
+
+
+
+.timestamp {
+	margin-top: 20px; 
+    margin-bottom: 10px; 
+    padding-left: 10px;
+
 }
 
 .chatlogs {
 	padding: 10px;
 	width: 100%;
-	height: 85%;
+	height: 67%;
 	overflow-y: scroll;
 	overflow-x: hidden;
 
@@ -175,7 +285,7 @@ i {
 .chat-form {
 	display: flex;
 	align-items: flex-start;
-	border-top: 1px solid #1adced; 
+	border-top: 1px solid #D1D1D1; 
 	height: 10%;
 
 }
@@ -183,12 +293,10 @@ i {
 .chat-form textarea {
 	background: #fbfbfb;
 	width: 100%;
-	
 	border: none;
 	border-radius: 3px;
 	resize: none;
 	padding: 10px;
-	
 	color: #333;
 }
 
@@ -214,12 +322,16 @@ i {
 	margin-right: 5px;
 	margin-left: 5px;
 }
-
+ul .inputfix {
+	border-radius: 0;
+	width: 100%;
+	border: none;
+	height: 30px;
+	font-size: 16px;
+}
 
 
 .rooms {
-	padding-top: 10px;
-	border-bottom: 1px solid #d1d1d1;
 }
 
 .room {
@@ -234,28 +346,69 @@ i {
 	
 }
 
+.room::-webkit-scrollbar {
+	display: none;
+}
+
 .room .user-image {
 	margin-right: 5px;
+	max-width: 40px;
+	max-height: 40px;
 }
 
 #roomTitle {
-	margin-right: 10px;
+	margin-right: 5px;
+	font-size: 16px;
 }
+
 
 .group {
 	font-size: 11px;
 	margin-right: 10px;
 	padding: 5px;
+	display: flex;
+	
+
+
+}
+
+
+.user-chats {
 
 }
 
 
 
+.active {
+	background-color: #e9e9e9;
+}
+
+.title {
+	padding: 3px;
+	font-size: 10.5px;
+	margin-bottom: 0;
+
+}
+
+.notifynum {
+	background-color: red;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	border-radius: 50%;
+    right: -8px;
+    bottom: 8px;
+}
 
 
-
-
-
+.notifynum p {
+	font-size: 12px;
+	text-align: center;
+	padding-top: 1px;
+	font-family: sans-serif;
+	color: white;
+	margin-top: 1px;
+}
 
 
 

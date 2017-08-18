@@ -14,6 +14,12 @@
 </head>
 <body>
 
+<header>
+  <ul>
+    
+  </ul>
+</header>
+
 <div id="parent">
   <div id="div1">
    <!-- begin options container -->
@@ -23,10 +29,19 @@
       </ul>
       <div class="user-profile"><img src="https://pbs.twimg.com/profile_images/896196702587150336/uRH4GqFQ.jpg"></div>
       <h5 style="text-align: center;">Matthew Speiser</h5>
-      <p style="padding: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p class="user-status" style="padding: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
+
+
     <!-- begin user online item -->
-    <div id="user-container" class="container-fluid padding-0 display-block">
+   <ul  class="optionsUl">
+      <!-- <li id="div3togglewidth" class="text-align-left"><i id="button3" class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></li> -->
+      <input type="text" name="search" class="inputfix" placeholder="Search For User...">
+    </ul>
+    <div>
+      <p class="title">Users Online:</p>
+    </div>
+    <div id="" class="container-fluid user-container display-block">
       <div class="user-image inline-block">
         <img class="user-image inline-block" style="height: 100%;" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA3MAAAAJDM2ZmQ1MDg2LTg5NzMtNGUzNC1hMmI3LTBjOGVjODhhNzZmMg.jpg">
       </div>
@@ -40,7 +55,161 @@
       <div class="status inline-block"></div>
     </div>
 
-        <div id="user-container" class="container-fluid padding-0 display-block">
+      <div id="" class="user-container container-fluid display-block">
+      <div class="user-image inline-block">
+        <img class="user-image inline-block" style="height: 100%;" src="http://stanlemmens.nl/wp/wp-content/uploads/2014/07/bill-gates-wealthiest-person.jpg">
+      </div>
+        
+      <div class="inline-block">
+        <ul class="padding-0">
+          <li><h5>Jill Jates</h5></li>
+            
+        </ul>
+      </div>
+      <div class="status inline-block"></div>
+    </div>
+
+    <div id="" class="user-container container-fluid display-block">
+      <div class="user-image inline-block">
+        <img class="user-image inline-block" style="height: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Steve_Jobs_Headshot_2010-CROP.jpg/1200px-Steve_Jobs_Headshot_2010-CROP.jpg">
+      </div>
+        
+      <div class="inline-block">
+        <ul class="padding-0">
+          <li><h5>Sweve Wubs</h5></li>
+            
+        </ul>
+      </div>
+      <div class="status away inline-block"></div>
+    </div>
+
+
+
+  </div> 
+
+  <!-- begin chat log window container -->
+  <div id="div2">
+    <div class="chat-menu">
+      <ul class="options">
+        <li><i class="fa fa-cog" aria-hidden="true"></i></li>
+        <li><i class="fa fa-calculator" aria-hidden="true"></i></li>
+        <li><i class="fa fa-location-arrow" aria-hidden="true"></i></li>
+        <li><i class="fa fa-calendar" aria-hidden="true"><div class="notifynum"><p><strong>2</strong></p></div></i></li>
+        
+        <li><i class="fa fa-users" aria-hidden="true"><div class="notifynum"><p><strong>1</strong></p></div></i></li>
+        <li><i class="fa fa-bell-o" aria-hidden="true"><div class="notifynum"><p><strong>5</strong></p></div></i></li>
+        <li><i class="fa fa-search" aria-hidden="true"></i></li>
+      </ul>
+    </div>
+
+    <div class="conversation-info">
+      <div class="user-photo"><img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA3MAAAAJDM2ZmQ1MDg2LTg5NzMtNGUzNC1hMmI3LTBjOGVjODhhNzZmMg.jpg"></div>
+      <div class="user-text">
+        <h2>Yoey Yohnson</h2>
+        <p class="user-status" style="">loau dort fesar sid anada kepta</p>
+      </div>
+      <div class="com-methods">
+         <li class="com-button info"><i class="fa fa-info fa-2x" aria-hidden="true"></i></li>
+        <li class="com-button video"><i class="fa fa-video-camera fa-2x" aria-hidden="true"></i></li>
+        <li class= "com-button phone"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></li>
+      </div>
+
+      
+        
+       
+
+    </div>
+
+    <div class="chatlogs">
+
+      <div class="chat friend">
+        <div class="user-photo"><img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA3MAAAAJDM2ZmQ1MDg2LTg5NzMtNGUzNC1hMmI3LTBjOGVjODhhNzZmMg.jpg"></div>
+        <p class="chat-message">What's up dude!</p>
+        <h5 class="timestamp">12:35pm</h5>
+      </div>
+
+      <div class="chat self">
+        <div class="user-photo"><img src="https://pbs.twimg.com/profile_images/896196702587150336/uRH4GqFQ.jpg"></div>
+        <p class="chat-message">YO yo yo whats up MAN!</p>
+        <h5 class="timestamp">12:36pm</h5>
+      </div>
+
+
+
+    </div>
+
+      <div class="chat-form">
+        <textarea placeholder="Enter A Message Here"></textarea>
+      </div>
+  </div> 
+  
+
+
+
+  <div id="div3">
+    <ul  class="optionsUl">
+      <!-- <li id="div3togglewidth" class="text-align-left"><i id="button3" class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></li> -->
+      <input type="text" name="search" class="inputfix" placeholder="Search Room/Conversation...">
+    </ul>
+
+    <div class="rooms">
+      <div>
+      <p class="title">My Rooms:</p>
+    </div>
+      <div class="room">
+        <div class="user-image inline-block">
+          <img class="user-image inline-block" style="height: 100%;" src="http://www.logodesignlove.com/images/classic/apple-logo-rob-janoff-01.jpg">
+        </div>
+        <h4 id="roomTitle" class="inline-block">Apple Team 1</h4>
+        <div class="group inline-block"></div>
+      </div>
+
+      <div class="room">
+        <div class="user-image inline-block">
+          <img class="user-image inline-block" style="height: 100%;" src="http://reliacraft.com.my/images/ict_partners/Microsoft_Logo.png">
+        </div>
+        <div>
+          <h4 id="roomTitle" class="inline-block">Microsoft Team 12</h4>
+        </div>
+        <div class="group inline-block"></div>
+      </div>
+
+      <div class="room">
+        <div class="user-image inline-block">
+          <img class="user-image inline-block" style="height: 100%;" src="http://androidfunz.com/wp-content/uploads/2015/12/Call-Of-Duty-Black-Ops-3-Header-Animated-02.png?40fee4">
+        </div>
+        <div>
+          <h4 id="roomTitle" class="inline-block">BLK OPS</h4>
+        </div>
+        <div class="group inline-block"><p></p></div>
+      </div>
+
+
+    </div>
+
+    <div class="user-chats">
+       <ul  class="optionsUl">
+      <!-- <li id="div3togglewidth" class="text-align-left"><i id="button3" class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></li> -->
+      
+    </ul>
+      <div>
+      <p class="title">Conversations:</p>
+    </div>
+      <div id="" class="container-fluid user-container display-block active">
+      <div class="user-image inline-block">
+        <img class="user-image inline-block" style="height: 100%;" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA3MAAAAJDM2ZmQ1MDg2LTg5NzMtNGUzNC1hMmI3LTBjOGVjODhhNzZmMg.jpg">
+      </div>
+        
+      <div class="inline-block">
+        <ul class="padding-0">
+          <li><h5>Yoey Yohnson</h5></li>
+            
+        </ul>
+      </div>
+      <div class="status inline-block"></div>
+    </div>
+
+          <div id="" class="container-fluid user-container display-block ">
       <div class="user-image inline-block">
         <img class="user-image inline-block" style="height: 100%;" src="http://stanlemmens.nl/wp/wp-content/uploads/2014/07/bill-gates-wealthiest-person.jpg">
       </div>
@@ -56,74 +225,11 @@
 
 
 
-
-
-  </div> 
-
-  <!-- begin chat log window container -->
-  <div id="div2">
-    <div class="chat-menu">
-      <ul class="options">
-        <li><i class="fa fa-cog" aria-hidden="true"></i></li>
-        <li><i class="fa fa-calculator" aria-hidden="true"></i></li>
-        <li><i class="fa fa-calendar" aria-hidden="true"></i></li>
-        <li><i class="fa fa-location-arrow" aria-hidden="true"></i></li>
-        <li><i class="fa fa-users" aria-hidden="true"></i></li>
-        <li><i class="fa fa-search" aria-hidden="true"></i></li>
-      </ul>
-    </div>
-    <div class="chatlogs">
-
-      <div class="chat friend">
-        <div class="user-photo"><img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA3MAAAAJDM2ZmQ1MDg2LTg5NzMtNGUzNC1hMmI3LTBjOGVjODhhNzZmMg.jpg"></div>
-        <p class="chat-message">What's up dude!</p>
-      </div>
-
-      <div class="chat self">
-        <div class="user-photo"><img src="https://pbs.twimg.com/profile_images/896196702587150336/uRH4GqFQ.jpg"></div>
-        <p class="chat-message">YO yo yo whats up MAN!</p>
-      </div>
-
-
-
     </div>
 
-      <div class="chat-form">
-        <textarea placeholder="Enter A Message Here"></textarea>
-        
-      </div>
-  </div> 
-  
+  </div>
 
 
-
-  <div id="div3">
-    <ul  class="optionsUl">
-      <li id="div3togglewidth" class="text-align-left"><i id="button3" class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></li>
-    </ul>
-
-    <div class="rooms">
-      
-      <div class="room">
-        <div class="user-image inline-block">
-          <img class="user-image inline-block" style="height: 100%;" src="css/images/default_img.png">
-        </div>
-        <h4 id="roomTitle" class="inline-block">Room1</h4>
-        <div class="group inline-block">User Count: 22</div>
-      </div>
-
-      <div class="room">
-        <div class="user-image inline-block">
-          <img class="user-image inline-block" style="height: 100%;" src="css/images/default_img.png">
-        </div>
-        <h4 id="roomTitle" class="inline-block">Room1</h4>
-        <div class="group inline-block">User Count: 22</div>
-      </div>
-
-
-    </div>
-
-  </div> 
 
 
 
